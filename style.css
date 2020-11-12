@@ -1,0 +1,21 @@
+.セル{
+	background-color: pink;
+}
+
+.グリッド{
+	display: grid;
+	grid-template-columns: repeat(3, 200px);
+	grid-auto-rows: 150px;
+	grid-gap: 40px;
+}
+
+.セル2{
+	background-color: lightskyblue;
+}
+
+.グリッド2{
+	display: grid;
+	grid-template-columns: repeat(5, 120px);
+	grid-auto-rows: 150px;
+	grid-gap: 20px;
+}
